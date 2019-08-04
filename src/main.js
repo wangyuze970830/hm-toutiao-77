@@ -4,7 +4,14 @@ import App from './App.vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+// import '@/style/index.less'
+// ww
+// ww
 import router from '@/router'
+
+// ww
+import axios from 'axios'
+Vue.prototype.$http = axios
 
 // 控制台提醒信息，开发者环境来提示
 Vue.config.productionTip = false
